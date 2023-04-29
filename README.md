@@ -12,3 +12,7 @@ e.g. I can make my very own mall ranking:
 
 
 ![Mall Hot 10](./screenshots/finished_chart_screenshot.png "Mall Hot 10")
+
+
+Check it out here - https://brookeknowles.github.io/hot-10/
+(note it looks ugly on mobile at the moment, will be fixed in future) 
