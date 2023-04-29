@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  console.log("inside the event listeners yuh")
   const saveButton = document.getElementById('save-button');
 
   saveButton.addEventListener('click', () => {
