@@ -1,19 +1,24 @@
-body {
+html, body {
     background: #000 !important;
     min-height: 100vh;
     font-family: sans-serif;
 }
 
+.saveFrameContainer {
+    background: #000 !important;
+}
 .chartContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70vh;
+    margin-bottom: 20px;
 }
 
 .table-container {
     width: 80%;
     overflow-x: auto;
+    margin: 0 auto;
 }
 
 table {
@@ -59,4 +64,23 @@ td:not(:last-child) {
 
 td + td {
     border-left: 1px dashed #ccc;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+td[contenteditable="true"] {
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
 }
