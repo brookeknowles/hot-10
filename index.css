@@ -108,3 +108,36 @@ button:hover {
     color: #000;
     cursor: pointer;
 }
+
+/* to look prettier on mobile below */
+@media screen and (max-width: 480px) {
+    #save-button {
+        margin: 0 auto;
+    }
+
+    .logoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    
+    .logoContainer img {
+        max-width: 100%;
+    }
+    
+    .titleContainer {
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    .titleContainer h1 {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .chartContainer {
+        margin-top: 50px;
+    }
+
+}

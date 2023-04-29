@@ -11,4 +11,4 @@ The website allows you to change the title of the chart and all the entries, and
 e.g. I can make my very own mall ranking:
 
 
-![Mall Hot 10](./screenshots/finished_%20chart_screenshot.png "Mall Hot 10")
+![Mall Hot 10](./screenshots/finished_chart_screenshot.png "Mall Hot 10")
